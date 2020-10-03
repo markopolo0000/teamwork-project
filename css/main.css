@@ -35,10 +35,26 @@ font-style: normal;
 font-size: 20px;
 font-weight: 400;
 background-color: #445162;
-pad:50px;
+padding-left:50px;
+padding-bottom: 50px;
+color:#ffffff;
+}
+h1{
+    padding-top: 45px;
+}
+li{
+    list-style-type: none;
+}
+.header_list{
+    margin-bottom: ;
 }
 .header_list:before{
-    content:url(../img/svg/check\ icon.svg);
+    content:url(../img/png/check\ icon.png);
+    margin-right: 10px;
+}
+.header_lists{
+    margin-top: 50px;
+    line-height: 36px;
 }
 
 
