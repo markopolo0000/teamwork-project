@@ -28,20 +28,26 @@
             url('../fonts/arial_italic.ttf') format('ttf')
      
    }
-/*---------ШРИФТИ-----------*/
+/*---------ШРИФТИ КІНЕЦЬ-----------*/
 header{
+max-width: 1270px;
+display: flex;
+justify-content: space-between;
+margin:0 auto;
+padding-left:50px;
 font-family: Arial;
 font-style: normal;
 font-size: 20px;
 font-weight: 400;
 background-color: #445162;
-padding-left:50px;
 padding-bottom: 50px;
+padding-top: 45px;
 color:#ffffff;
 }
-h1{
-    padding-top: 45px;
+.foto_wreaper{
+  padding-right: 50px;
 }
+
 li{
     list-style-type: none;
 }
