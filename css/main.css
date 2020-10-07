@@ -13,22 +13,14 @@
   }
 /*---------ШРИФТИ-----------*/
 
-   @font-face{
-       font-family: Arial;
-       font-style: normal;
-       font-weight:400;
-       src: local('Arial regular')
-            url('../fonts/Arial/ regular.ttf') format('ttf')
-   }
-   @font-face{
-       font-family:Arial ;
-       font-style: italic;
-       font-weight: 400;
-       src: local('Arial_italic')
-            url('../fonts/arial_italic.ttf') format('ttf')
-     
-   }
 /*---------ШРИФТИ КІНЕЦЬ-----------*/
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+.Name{
+  font-weight: 300;
+}
 header{
 background-color: #445162;
 min-width: 1276px;
@@ -39,8 +31,6 @@ justify-content:space-between;
 max-width: 1276px;
 margin:0 auto;
 padding-left:50px;
-font-family:Arial;
-font-style:normal;
 font-size: 20px;
 font-weight: 400;
 padding-bottom: 50px;
@@ -73,8 +63,6 @@ main{
   max-width: 1276px;
   margin:0 auto;
 padding-left:50px;
-font-family: Arial;
-font-style: normal;
 font-size: 16px;
 font-weight: 400;
 padding-bottom: 50px;
@@ -101,7 +89,6 @@ color:#445161;
   /* width: 117px;
   height: 22px; */
   color: #ffffff;
-  font-family: "Arial MT";
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
@@ -154,6 +141,7 @@ color:#445161;
   height: 170px;
   margin-bottom: 21px;
   border-radius: 5px;
+  border: none;
 }
 .submit{
   width: 140px;
@@ -165,7 +153,6 @@ color:#445161;
 }
 .contacts{
   color: #ffffff;
-  font-family: "Arial MT";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
