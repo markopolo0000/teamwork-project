@@ -54,9 +54,7 @@ color:#ffffff;
 li{
     list-style-type: none;
 }
-.header_list{
-    margin-bottom: ;
-}
+
 .header_list:before{
     content:url(../img/png/check\ icon.png);
     margin-right: 10px;
@@ -90,7 +88,7 @@ color:#445161;
 }
 .name2{
   margin-bottom: 35px;
-  font-size: ;
+  
 }
 .videoblock{
   padding-right: 50px;
