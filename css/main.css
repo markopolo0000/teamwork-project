@@ -1,5 +1,4 @@
 body{
-  width: 100%;
 }
   /*---------Обнуление-----------*/
   *{
@@ -118,6 +117,7 @@ color:#445161;
 
 .container{
   max-width: 1276px;
+  margin:0 auto;
  
   
 }
