@@ -149,6 +149,9 @@ li{
  .social-contacts{
   margin-top: 37px; 
 }
+/* .social-contacts:before{
+  content: url();
+} */
 .batton{
   text-align: center;
 }
