@@ -18,7 +18,7 @@
        font-style: normal;
        font-weight:400;
        src: local('Arial regular')
-            url('../fonts/Arial\ regular.ttf') format('ttf')
+            url('../fonts/Arial/ regular.ttf') format('ttf')
    }
    @font-face{
        font-family:Arial ;
@@ -34,14 +34,13 @@ background-color: #445162;
 min-width: 1276px;
 }
 .header_wreaper{
-display: flex;
-justify-content: space-between;
+display:flex;
+justify-content:space-between;
 max-width: 1276px;
-
 margin:0 auto;
 padding-left:50px;
-font-family: Arial;
-font-style: normal;
+font-family:Arial;
+font-style:normal;
 font-size: 20px;
 font-weight: 400;
 padding-bottom: 50px;
