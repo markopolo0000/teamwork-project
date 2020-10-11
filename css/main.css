@@ -83,7 +83,38 @@ color:#445161;
 .videoblock{
   padding-right: 50px;
 }
+/* Dignity and pluses product START */
+.name3{
+  text-align: center;
+  padding-top: 35px;
+  margin-bottom: 25px;
+}
+.pros_and_cons_items{
+  display: grid;
+  max-width:1276px;
+  grid-template-columns:590px 590px;
+  grid-template-rows:;
+}
+.item{
+  margin-bottom: 35px;
+  margin-right: 20px;
+}
+.pros_and_cons{
+  min-width: 1276px;
+  background-color:#f5f5f5 ;
+}
+.pros_and_cons_wreaper{
+  max-width: 1276px;
+  margin:0 auto;
+  padding-left: 50px;
+ 
+}
+
+/* Dignity and pluses product AND */
+
 /*------main_and---------*/
+
+/* Footer start */
 .footer{
   background-color: #445162;
 }
@@ -173,6 +204,5 @@ color:#445161;
 .batton{
   text-align: center;
 }
-
-
+/* footer and */
 
