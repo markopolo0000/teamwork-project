@@ -123,6 +123,8 @@ color:#445161;
   margin-top: 20px;
   margin-bottom: 21px;
   border-radius: 5px;
+  outline: none;
+  padding-left: 5px;
   
 }
 ::placeholder{
@@ -132,11 +134,14 @@ color:#445161;
 :focus::-moz-placeholder          {color: transparent}
 :focus:-moz-placeholder           {color: transparent}
 :focus:-ms-input-placeholder      {color: transparent}
+
 .row-email{
   width: 500px;
   height: 40px;
   margin-bottom: 21px;
   border-radius: 5px;
+  outline: none;
+  padding-left: 5px;
 }
 .message-row{
   width: 500px;
@@ -144,14 +149,47 @@ color:#445161;
   margin-bottom: 21px;
   border-radius: 5px;
   border: none;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-family: 'Roboto', sans-serif;
 }
+
 .submit{
   width: 140px;
   height: 40px;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+
+
   
+}
+.submit:hover{
+  background-color: tomato;
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: underline;
+
+
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  animation-duration: 1s;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s;
+
+}
+@keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+ 
+@-webkit-keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
 }
 .contacts{
   color: #ffffff;
@@ -166,12 +204,17 @@ color:#445161;
 
  .social-contacts{
   margin-top: 37px; 
+  display: flex;
+  justify-content: space-between;
 }
 /* .social-contacts:before{
   content: url();
 } */
 .batton{
   text-align: center;
+}
+.social-margin{
+  margin-right: 10px;
 }
 
 
