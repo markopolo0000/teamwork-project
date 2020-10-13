@@ -88,16 +88,29 @@ color:#445161;
   text-align: center;
   padding-top: 35px;
   margin-bottom: 25px;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 300;
 }
 .pros_and_cons_items{
   display: grid;
   max-width:1276px;
-  grid-template-columns:590px 590px;
+  grid-template-columns: 45px 590px 45px 590px;
   
 }
 .item{
   margin-bottom: 35px;
   margin-right: 20px;
+  font-size: 16px;
+}
+
+.box{
+  width: 35px;
+  height: 35px;
+  background-color: #445161;
+  margin-top: 4px;
+  content: url(../img/png/Layer\ 2.png);
+  padding:6px;
 }
 .pros_and_cons{
   min-width: 1276px;
