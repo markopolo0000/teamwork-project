@@ -125,6 +125,45 @@ color:#445161;
 
 /* Dignity and pluses product AND */
 
+/* Scrinshots_start */
+.scrinshots{
+  min-width: 1276px;
+  background-color:white ;
+}
+.scrinshots_wreaper{
+  max-width: 1276px;
+  margin:0 auto;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: 215px 400px 215px 400px;
+}
+.scrinshots_box{
+  width: 200px;
+  height: 150px;
+  background-color: #445161;
+  margin-bottom: 30px;
+}
+.scrinshot_item_wreaper{
+  width: 360px;
+  font-size: 16px;
+  color: #445161;
+}
+h3{
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #445161;
+  font-weight: 300;
+}
+.name4{
+  text-align: center;
+  padding-top: 35px;
+  margin-bottom: 35px;
+  font-size: 30px;
+  color: #445161;
+  font-weight: 300;
+}
+/* Scrinshots_AND */
+
 /*------main_and---------*/
 
 /* Footer start */
