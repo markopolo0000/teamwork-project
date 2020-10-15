@@ -42,9 +42,7 @@ color:#ffffff;
   padding-right: 50px;
 }
 
-li{
-    list-style-type: none;
-}
+
 
 .header_list:before{
     content:url(../img/png/check\ icon.png);
@@ -54,6 +52,7 @@ li{
     margin-top: 50px;
     line-height: 36px;
     font-size: 20px;
+    list-style-type: none;
 }
 /*-----main_start---------*/
 main{
@@ -182,6 +181,8 @@ h3{
  flex-direction: row;
  flex-wrap: wrap;
  justify-content: center;
+ max-width: 1276px;
+  margin:0 auto;
 }
 .container-img{
   position: relative;
@@ -227,6 +228,100 @@ h3{
   margin-bottom: 24px;
 }
 /* /Reviews */
+/* bin_START */
+.name5{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: #445161;
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+ 
+}
+.bin_title{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.price{
+  height: 66px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+ border: 2px solid;
+  font-size: 40px;
+  margin-bottom:20px ;
+  color: #445161;
+}
+
+.list{
+  margin-left:36px;
+  font-size: 14px;
+font-weight: 400;
+font-style: normal;
+line-height: 24px;
+color: white;
+
+
+  
+}
+.bin_wreaper{
+  display: flex;
+  align-items: flex-end;
+  margin:0 auto;
+  max-width: 1276px;
+  justify-content: space-between;
+  padding-left: 143px;
+  padding-right:143px ;
+  padding-bottom: 50px;
+  
+}
+.bin_buy{
+  text-align: center;
+  background-color:white;
+  margin-left: 20px;
+  width: 260px;
+  margin-top: 12px;
+  margin-bottom: 19px;
+  height: 40px;
+  padding-top:auto;
+  padding-bottom:auto;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+
+}
+.bin_buy:hover{
+  background-color: yellow;
+  color:#b23849;
+  transform: scale(1.3);
+  transition: 1s;
+  
+}
+.standart{
+background-color: #445161;
+width: 300px;
+height: 306px;
+border-radius: 5px;
+}
+.premium{
+  background-color: #445161;
+  width: 300px;
+  height: 404px;
+  border-radius: 5px;
+}
+.lux{
+  background-color: #445161;
+  width: 300px;
+  height: 499px;
+  border-radius: 5px;
+}
+/* bin_AND */
 
 /*------main_and---------*/
 
