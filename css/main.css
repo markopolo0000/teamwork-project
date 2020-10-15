@@ -269,7 +269,12 @@ h3{
 }
 .message-row{
   height: 170px;
-  padding-top: 5px;
+  padding: 5px;
+  /* max-width: 550px;
+  max-height: 200px;
+  min-width: 450px;
+  min-height: 150px; */
+  resize: none;
   
 }
 ::placeholder{
@@ -332,7 +337,8 @@ h3{
 }
 .icons{
   margin-bottom: 19px;
-}
+} 
+
 
  .social-contacts{
   margin-top: 32px; 
