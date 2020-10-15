@@ -347,10 +347,20 @@ h3{
 }
 .social-icon{
   margin-right: 5px;
+  display: inline-block;
+  overflow: hidden;
 }
-.social-icon:hover{
-  transform: scale(1.3);
+.social-icon img{
+  transition: 1s;
+  
 }
+.social-icon img:hover{
+  transform: scale(1.4);
+}
+/* .social-icon:hover{
+  transform: scale(1.3); 
+} */
+
 /* /Contacts */
 /* footer and */
 
